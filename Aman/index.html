@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Ethical Hacker | Aman Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9d91ceb40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>
+                    <font color="Red">H</font>ackeriron1</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Bug hunter | Web Pentester</p>
+                <h1>Hii Hackers, I'm <span>Aman</span> <br>Singh from India</h1>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    <!-------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="about-col-2">
+                <br><br><br> <br><br><br>
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a security researcher and web pentester and I'm doing bug hunting right now. I got hall of fame from Disney, Airbnb, rocket chat, ziff-davis,and many more. I acknowledged by NCIIPC RVDP. I started my hacking career 3 years ago. I'm
+                    a not professional but either nor beginner. I'm a CTF player of TryHackMe. I completed my OWASP Top 10. I have Basic knowladge of programming and computer. I want to become a Red teamer.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-tab" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>Full time<br><span>Bug Bounty Hunting</span></li>
+                        <li>Full time<br><span>Web Pentester</span></li>
+                        <li>Language<br><span>HTML, JS, Python</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>2021<br><span>hackerone 1 year</span></li>
+                        <li>2020<br><span>bugcrowd 2 year</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>2021<br><span>BCA-C&F to current</span></li>
+                        <li>2021<br><span>12th from Maharshi arvind vidya mandir in UP</span></li>
+                        <li>2019<br><span>10th from Jankidevi in UP</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!---My Services--->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <h2>My Bug Article</h2>
+                    <p>Here is my some article which is found by me. And How I was able to Reproduce these bugs.If you intrusted on article so you can read my article. and this is awesome article.</p>
+                    <a href="https://medium.com/@hackeriron1" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <h2>FB Bug Article</h2>
+                    <p>Here is facebook article which is found by another Hackers. And How they were able to Reproduce these bugs.If you intrusted on article so you can read my article. and this is awesome article.</p>
+                    <a href="https://github.com/jaiswalakshansh/Facebook-BugBounty-Writeups" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <h2>Google Bug Article</h2>
+                    <p>Here is Google article which is found by another Hackers. And How they were able to Reproduce these bugs.If you intrusted on article so you can read my article. and this is awesome article.</p>
+                    <a href="https://github.com/xdavidhu/awesome-google-vrp-writeups" target="_blank">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------Portfolio-------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="data:image/png;base64,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">
+                    <div class="layer">
+                        <h3>Hackerone</h3>
+                        <p>This site connets to my hackerone profile.<br> connect with me on hackerone.</p>
+                        <a href="https://hackerone.com/hackeriron1" target="_blank">
+                            <font color="black"><i class="fa-solid fa-arrow-up-right-from-square"></i></font>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://pentester.land/assets/img/conference-notes/automation-for-bug-hunters/automation-for-bug-hunters.png">
+                    <div class="layer">
+                        <h3>bugcrowd</h3>
+                        <p>This site connets to my bugcrowd profile.<br> connect with me on bugcrowd.</p>
+                        <a href="https://bugcrowd.com/hackeriron1" target="_blank">
+                            <font color="black"><i class="fa-solid fa-arrow-up-right-from-square"></i></font>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://techbeacon.com/sites/default/files/styles/social/public/field/image/bug-bounty-program.jpg?itok=y4tAQupB">
+                    <div class="layer">
+                        <h3>Instagram</h3>
+                        <p>This site connets to my Instagram profile.<br>and you can talk to me directly.<br>connect with me on Instagram.</p>
+                        <a href="https://instagram.com/hackeriron1" target="_blank">
+                            <font color="black"><i class="fa-solid fa-arrow-up-right-from-square"></i></font>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://linktr.ee/hackeriron1" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------Contact------------------->
+
+    <div id="contact">
+        <div id="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> hackeironsman@gmail.com</p>
+                    <p><i class="fa-duotone fa-phone"></i> +917307615969</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/hackeriron1/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100033531510638" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/hackeriron1"><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                        <a href="https://linkedin.com/in/aman-singh-91a719201" target="_blank"><i class="fa-brands fa-linkedin "></i></a>
+                    </div>
+                </div>
+                <div class="contact=right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Hackeriron1. <i class="fas fa-heart"></i></p>
+        </div>
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links ");
+            var tabcontents = document.getElementsByClassName("tab-contents ");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link ");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab ");
+                }
+                event.currentTarget.classList.add("active-link ");
+                document.getElementById(tabname).classList.add("active-tab ");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzVyOp9ek54DwA7DpeNdN3En5igbZFTSuJCZ66OkxSMkaqoEtZvMJ57sfNnd5cFASedPA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function() {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
