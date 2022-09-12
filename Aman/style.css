@@ -267,7 +267,7 @@ nav ul li a:hover::after {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #18FF00;
     padding: 1px 50px;
     border-radius: 6px;
     text-decoration: none;
