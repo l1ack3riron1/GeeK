@@ -276,7 +276,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: #18FF00;
 }
 
 
@@ -295,7 +295,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #ff004f;
+    color: #18FF00;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -314,13 +314,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-    color: #ff004f;
+    color: #18FF00;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
-    background: #ff004f;
+    background: #18FF00;
 }
 
 .contact-right form {
@@ -380,7 +380,7 @@ nav .fa-solid {
         font-size: 25px;
     }
     nav ul {
-        background: #ff004f;
+        background: #18FF00;
         position: fixed;
         top: 0;
         right: -200px;
